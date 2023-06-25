@@ -1,0 +1,25 @@
+{
+  "name": "design-patterns-in-typescript",
+  "version": "1.0.0",
+  "description": "Implement each design patterns with typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeinab-hajhosseini/Design-Patterns-In-TypeScript.git"
+  },
+  "keywords": [
+    "Design-Pattern"
+  ],
+  "author": "zeinab haj hosseini",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zeinab-hajhosseini/Design-Patterns-In-TypeScript/issues"
+  },
+  "homepage": "https://github.com/zeinab-hajhosseini/Design-Patterns-In-TypeScript#readme",
+  "dependencies": {
+    "@types/node": "^20.3.1"
+  }
+}
