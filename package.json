@@ -4,6 +4,9 @@
   "description": "Implement each design patterns with typescript",
   "main": "index.js",
   "scripts": {
+    "compile": "tsc -p ./src",
+    "compile-watch": "tsc -p ./src -w",
+    "app": "node ./dist/test.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
