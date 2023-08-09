@@ -1,6 +1,6 @@
-import { dimension } from "./dimension";
+import { dimension } from "../dimension";
 
-export interface IChair {
+export interface IChair{
     name: string;
     height: number;
     width: number;
@@ -8,17 +8,17 @@ export interface IChair {
     getDimension(): dimension;
 }
 
-export class Chair implements IChair {
+export class Chair implements IChair{
     name = '';
     height = 0;
     width = 0;
     dipth = 0;
 
-    getDimension(): dimension {
+    getDimension(): dimension{
         return {
             height: this.height,
             width: this.width,
-            dipth: this.dipth,
+            dipth: this.dipth
         }
     }
 }
